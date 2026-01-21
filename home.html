@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>VD Course | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f2f2f2;
+    }
+
+    /* HEADER */
+    header {
+      background: #ffffff;
+      padding: 15px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #2b73ff;
+    }
+
+    nav a {
+      margin: 0 18px;
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+    }
+
+    .signup-btn {
+      background: #2b73ff;
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 20px;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      background: #ffffff;
+      padding: 80px 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .hero-text {
+      width: 50%;
+    }
+
+    .hero-text h1 {
+      font-size: 42px;
+      color: #2b73ff;
+      margin-bottom: 15px;
+    }
+
+    .hero-text h3 {
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      color: #444;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .hero-text button {
+      background: #2b73ff;
+      color: #fff;
+      border: none;
+      padding: 12px 30px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .hero-image {
+      width: 45%;
+      text-align: center;
+    }
+
+    .hero-image img {
+      max-width: 100%;
+      height: auto;
+    }
+
+   /* FOOTER */
+    footer {
+      background: #2b73ff;
+      color: #fff;
+      text-align: center;
+      padding: 18px;
+      font-size: 14px;
+    }
+    @media(max-width: 900px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text, .hero-image {
+        width: 100%;
+      }
+
+      .hero-text h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+ <header>
+  <div class="logo">VD COURSE</div>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="Courses.html">Courses</a>
+    <a href="About.html">About us</a>
+    <a href="Contact.html">Contact us</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html" class="signup-btn">Sign up</a>
+  </nav>
+</header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>MONETIZE YOUR SKILL ONLINE</h1>
+      <h3>Create, sell and manage online course easily</h3>
+
+      <p>
+        Start with your career with VD course,
+        professional certificates and degrees from world class
+        universities..
+      </p>
+
+      <button>JOIN NOW</button>
+    </div>
+
+    <div class="hero-image">
+      <!-- Replace image path if needed -->
+      <img src="hm.png" alt="Online Learning">
+    </div>
+  </section>
+
+  <div class="space"></div>
+  <!-- FOOTER -->
+  <footer>
+    © 2026 VD COURSE. ALL COPYRIGHT RESERVED.
+  </footer>
+
+</body>
+</html>

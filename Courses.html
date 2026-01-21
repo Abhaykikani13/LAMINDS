@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Courses | VD Course</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #d9d9d9;
+    }
+
+    /* HEADER */
+    header {
+      background: #ffffff;
+      padding: 15px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #2b73ff;
+    }
+
+    nav a {
+      margin: 0 18px;
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+    }
+
+    .signup-btn {
+      background: #2b73ff;
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 20px;
+    }
+
+    /* TITLE */
+    .title {
+      padding: 40px 60px 20px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    /* COURSES SECTION */
+    .courses {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 20px 40px 60px;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .course-card {
+      background: #ffffff;
+      width: 300px;
+      padding: 25px;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    .course-card h3 {
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+
+    .course-card p {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .price {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      font-size: 14px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+    .buy {
+      background: #2b73ff;
+      color: #fff;
+    }
+
+    .cart {
+      background: #7a7a7a;
+      color: #000;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #2b73ff;
+      color: #fff;
+      text-align: center;
+      padding: 18px;
+      font-size: 14px;
+    }
+
+    @media(max-width: 900px) {
+      .courses {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+ <header>
+  <div class="logo">VD COURSE</div>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="Courses.html">Courses</a>
+    <a href="About.html">About us</a>
+    <a href="Contact.html">Contact us</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html" class="signup-btn">Sign up</a>
+  </nav>
+</header>
+
+  <!-- TITLE -->
+  <div class="title">FEATURED COURSE</div>
+
+  <!-- COURSES -->
+  <section class="courses">
+
+    <div class="course-card">
+      <h3>WEB DEVELOPMENT</h3>
+      <p>
+        Web development courses can help
+        you learn HTML, CSS, JavaScript,
+        and responsive design principles.
+      </p>
+      <div class="price">2999/- Rs.</div>
+      <button class="btn buy">BUY NOW</button>
+      <button class="btn cart">ADD TO CART</button>
+    </div>
+
+    <div class="course-card">
+      <h3>PYTHON DEVELOPMENT</h3>
+      <p>
+        Python courses can help you learn
+        programming fundamentals, data
+        analysis, web development, and
+        automation techniques.
+      </p>
+      <div class="price">999/- Rs.</div>
+      <button class="btn buy">BUY NOW</button>
+      <button class="btn cart">ADD TO CART</button>
+    </div>
+
+    <div class="course-card">
+      <h3>UI / UX DESIGN</h3>
+      <p>
+        UX design courses can help you
+        learn user research, wireframing,
+        prototyping, and usability testing.
+      </p>
+      <div class="price">599/- Rs.</div>
+      <button class="btn buy">BUY NOW</button>
+      <button class="btn cart">ADD TO CART</button>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 VD COURSE. ALL COPYRIGHT RESERVED.
+  </footer>
+
+</body>
+</html>

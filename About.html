@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us | VD Course</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #d9d9d9;
+    }
+
+    /* HEADER */
+    header {
+      background: #fff;
+      padding: 15px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #2b73ff;
+    }
+
+    nav a {
+      margin: 0 18px;
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+    }
+
+    .signup-btn {
+      background: #2b73ff;
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 20px;
+    }
+
+    /* ABOUT SECTION */
+    .about-container {
+      background: #fff;
+      margin: 30px 60px;
+      padding: 40px;
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .about-left {
+      width: 60%;
+    }
+
+    .about-left h2 {
+      margin-bottom: 15px;
+    }
+
+    .about-left p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .info {
+      display: flex;
+      gap: 40px;
+      margin-top: 20px;
+    }
+
+    .info div {
+      font-size: 14px;
+    }
+
+    .info strong {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    /* TEAM */
+    .about-right {
+      width: 35%;
+      text-align: center;
+    }
+
+    .about-right h2 {
+      margin-bottom: 15px;
+    }
+
+    .about-right img {
+      width: 220px;
+      height: 300px;
+      border-radius: 6px;
+    }
+
+    .about-right h3 {
+      margin-top: 10px;
+    }
+
+    /* STATS */
+    .stats {
+      background: #fff;
+      margin: 0 60px 30px;
+      padding: 30px;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+    }
+
+    .stats h2 {
+      color: #2b73ff;
+      font-size: 26px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #2b73ff;
+      color: #fff;
+      text-align: center;
+      padding: 18px;
+      font-size: 14px;
+    }
+
+    @media(max-width: 900px) {
+      .about-container {
+        flex-direction: column;
+      }
+      .about-left, .about-right {
+        width: 100%;
+      }
+      .stats {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+ <header>
+  <div class="logo">VD COURSE</div>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="Courses.html">Courses</a>
+    <a href="About.html">About us</a>
+    <a href="Contact.html">Contact us</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html" class="signup-btn">Sign up</a>
+  </nav>
+</header>
+
+  <!-- ABOUT -->
+  <section class="about-container">
+
+    <div class="about-left">
+      <h2>WHO WE ARE</h2>
+      <p>
+        VD Course is an online course selling platform that help
+        educators monetize their skill by creating and selling
+        course easily.
+      </p>
+
+      <h2>OUR MISSION</h2>
+      <p>
+        To make quality education accessible while helping
+        trainers grow their income through digital learning.
+      </p>
+
+      <div class="info">
+        <div>
+          <strong>Email</strong>
+          vdedu@gmail.com
+        </div>
+        <div>
+          <strong>Phone no</strong>
+          +91 97645 45678
+        </div>
+        <div>
+          <strong>Address</strong>
+          Gujrat, surat.
+        </div>
+      </div>
+    </div>
+
+    <div class="about-right">
+      <h2>MEET OUR TEAM MEMBER</h2>
+      <img src="vk.jpg" alt="Founder">
+      <h3>Virat Kohli</h3>
+      <p>Founder</p>
+    </div>
+
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div>
+      <h2>500+</h2>
+      <p>Courses</p>
+    </div>
+    <div>
+      <h2>10K</h2>
+      <p>Students</p>
+    </div>
+    <div>
+      <h2>1K</h2>
+      <p>Educators</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 VD COURSE. ALL COPYRIGHT RESERVED.
+  </footer>
+
+</body>
+</html>

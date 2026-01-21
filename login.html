@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | VD Course</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.html">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f2f2f2;
+    }
+
+    /* HEADER */
+    header {
+      background: #ffffff;
+      padding: 15px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #2b73ff;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+    }
+
+    .signup-btn {
+      background: #2b73ff;
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 20px;
+    }
+
+    /* LOGIN BOX */
+    .login-box {
+      background: #ffffff;
+      width: 400px;
+      margin: 70px auto;
+      padding: 35px;
+      border-radius: 8px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+    .login-box h2 {
+      margin-bottom: 10px;
+      color: #2b73ff;
+    }
+
+    .login-box p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 12px;
+      margin: 12px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 12px;
+      background: #2b73ff;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .login-box button:hover {
+      background: #1f5ed8;
+    }
+
+    .login-links {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .login-links a {
+      color: #2b73ff;
+      text-decoration: none;
+    }
+
+    .login-links a:hover {
+      text-decoration: underline;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #2b73ff;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 60px;
+      font-size: 14px;
+    }
+
+    /* RESPONSIVE */
+    @media(max-width: 500px) {
+      header {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .login-box {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<!-- <header>
+  <div class="logo">VD COURSE</div>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="Courses.html">Courses</a>
+    <a href="About.html">About us</a>
+    <a href="Contact.html">Contact us</a>
+    <a href="login.html">Login</a>
+    <a href="signup.html" class="signup-btn">Sign up</a>
+  </nav>
+</header> -->
+
+<!-- LOGIN SECTION -->
+<div class="login-box">
+  <h2>Login</h2>
+  <p>Please login to your account</p>
+
+  <form>
+    <input type="email" placeholder="Email Address" required>
+    <input type="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+  </form>
+
+  <div class="login-links">
+    <p>Don’t have an account? <a href="signup.html">Sign up</a></p>
+  </div>
+</div>
+
+
+
+</body>
+</html>
